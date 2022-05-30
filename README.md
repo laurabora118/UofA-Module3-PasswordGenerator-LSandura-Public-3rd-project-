@@ -28,4 +28,6 @@ Git Repository Site that shows finalized projectresults:
 References:
     1 - #Starter HTML, CSS and JS, plus image example and assignment criteria received in UofA assignment 
 
-    2 -
+    2 - UofA Instructor David Fulka recap of module instructions in end of JavaScript Day 3 Class
+
+    3 -
