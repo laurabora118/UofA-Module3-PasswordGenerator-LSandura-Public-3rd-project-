@@ -23,7 +23,7 @@ Repository link where finalzed project can be pulled:
     https://github.com/laurabora118/UofA-Module3-PasswordGenerator-LSandura
 
 Git Repository Site that shows finalized projectresults:
-    
+    https://laurabora118.github.io/UofA-Module3-PasswordGenerator-LSandura/
 
 References:
     1 - #Starter HTML, CSS and JS, plus image example and assignment criteria received in UofA assignment 
