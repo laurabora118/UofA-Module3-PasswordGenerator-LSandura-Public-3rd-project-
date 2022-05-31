@@ -135,3 +135,11 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+/* The alert message box */
+.alert {
+  padding: 60px;
+  background-color: #ad4413;
+  color: rgb(224, 213, 213);
+  margin-bottom: 60px;
+}

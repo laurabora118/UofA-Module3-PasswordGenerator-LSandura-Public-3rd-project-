@@ -28,6 +28,11 @@ Git Repository Site that shows finalized projectresults:
 References:
     1 - #Starter HTML, CSS and JS, plus image example and assignment criteria received in UofA assignment 
 
-    2 - UofA Instructor David Fulka recap of module instructions in end of JavaScript Day 3 Class
+    2 - JavaScript lessons and UofA Instructor David Fulka recap of module instructions in end of JavaScript Day 3 Class
 
-    3 -
+    3 - https://www.w3schools.com/js/js_random.asp
+
+    4 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+    5 - https://www.w3schools.com/howto/howto_js_alert.asp
+
