@@ -21,6 +21,30 @@ function generatePassword() {
   //console.log("Your password is: " + upperLetters[i]+numbers[i]+lowerLetters[i]+specialChar[i]+miscWords[i]);
 }
 
+//Recap from instructor
+//methods to use ->
+//Alert - if they do not select an option
+//Prompts - to ask questions
+//Confirm - to confirm their choices
+//Grading feedback
+// * Application doesn't require minimum password length of 8 character
+// * Application doesn't require maximum password length of 128 characters
+// * Application doesn't generate a password at all
+// * Application doesn't generate valid password based on options outlined in all other criteria
+// * Application prompts user for 4 of the 5 password options: password length, lowercased characters, uppercased characters, numeric characters, and special characters
+// * Repository README is missing 1 of the following: description, screenshot, or link to deployed application
+
+function writefinalPassword () {
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+
+    passwordText.value = password;
+
+}
+
+
+
+
 for (var clickButton of
   document.getElementsByClassName("card-footer"))
   clickButton.addEventListener("click", alertMessage);
@@ -31,6 +55,7 @@ for (var clickButton of
 
   var options = ["Yes", "No"];
   var gatheroptions = function () {
+
     var promptUpper = window.prompt("Type Yes if you want upper case letters, type No if you do not.");
     var promptNumb = window.prompt("Type Yes if you want numbers, type No if you do not.");
     var promptLCase = window.prompt("Type Yes if you want lower case letters, type No if you do not.");
@@ -58,13 +83,13 @@ for (var clickButton of
 }
     
 //  if (promptMinlength <=8 & promptMaxlength >= 128)
-  var Array = [upperLetters+numbers+lowerLetters+specialChar+miscWords]
+  var finalPassword = [upperLetters+numbers+lowerLetters+specialChar+miscWords]
   //finalArray[Math.floor(Math.random()*arr.length)]
   //var passgenerator = [upperLetters, numbers, lowerLetters, specialChar, miscWords]
   //var array1 = [Math.floor(Math.random(upperLetters,numbers,lowerLetters,specialChar,miscWords))*]
-  for(var i=0; i < Array; i++); {
+  for(var i=0; i < finalPassword; i++); {
     // This statement will run each time the loop is executed
-    console.log("Here is your password: " + Array[i++]);
+    console.log("Here is your password: " + finalPassword[i++]);
   }
  
   //for (let i = 0; i <arr.length; i++)
@@ -73,7 +98,7 @@ for (var clickButton of
     // Write password to the #password input
 
   function writePassword() {
-  var password = generatePassword(Array);
+  var password = generatePassword(finalPassword);
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
@@ -87,3 +112,33 @@ generateBtn.addEventListener("click", writePassword);
 //  if (randomPassword.isgenerated) {
 //    console.log("Password is: " + generatedPassword);
 //  }
+
+
+//Notes from tutoring
+//min and max letters prompt
+// Ok to confirm equals true
+// Then cancel for false
+// return a string that are randomly chosen
+// Console.log characters came to log the string with the commas
+// mine is a string
+// var array = 
+// array [0] 
+// Don't contatenant strings
+// upperCase [4]
+// random number generator choose these spots randomly
+// var password = ' '
+// password = password + lowerCase[4]
+// password = password + uppercase [6]
+// create a program that works
+// trying to set it up so the user can select from an array of characters
+// random selector chooses
+// look at the way I am choosing the bucket
+// choosing the character from the characters
+// 10 iterations, looping 10 times if someone wants 10 characters
+//********/
+//Write out a flow chart
+//with each item test each item before moving to the next
+//websites that may be useful
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+//https://www.w3schools.com/js/js_arrays.asp
+//https://en.wikipedia.org/wiki/Flowchart
